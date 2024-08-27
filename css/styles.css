@@ -62,7 +62,7 @@ nav ul li a.btn.secondary {
 /* Hero Section */
 .hero {
     background: url('hero-bg.jpg') no-repeat center center/cover;
-    color: #fff;
+    color: #000000;
     padding: 100px 0;
     text-align: center;
 }
