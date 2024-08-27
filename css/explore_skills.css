@@ -1,0 +1,85 @@
+/* CSS for Explore Skills Page (explore-skills.css) */
+
+/* Main Content */
+main {
+    padding: 60px 0;
+    background: #f9f9f9;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.search-bar input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background-color: #ff6347;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+.search-bar button:hover {
+    background-color: #ff4a33;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.skill-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.skill-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.skill-card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.skill-card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.skill-card .btn:hover {
+    background: #ff4a33;
+}
+
+/* Active Link */
+nav ul li a.active {
+    border-bottom: 2px solid #ff6347;
+}

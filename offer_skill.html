@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offer a Skill - SkillSwap Hub</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/offer_skill.css"> <!-- New CSS file -->
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>SkillSwap Hub</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="explore_skills.html">Explore Skills</a></li>
+                    <li><a href="offer_skill.html" class="active">Offer a Skill</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#" class="btn">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <h2>Offer a Skill</h2>
+            <p>Share your knowledge with others by offering a skill.</p>
+
+            <form action="#" method="POST" class="offer-skill-form">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="skill">Skill Title:</label>
+                    <input type="text" id="skill" name="skill" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="description">Skill Description:</label>
+                    <textarea id="description" name="description" rows="5" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="experience">Your Experience Level:</label>
+                    <select id="experience" name="experience" required>
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                        <option value="expert">Expert</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="availability">Availability:</label>
+                    <input type="text" id="availability" name="availability" placeholder="e.g., Weekends, Evenings" required>
+                </div>
+
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 SkillSwap Hub. All rights reserved.</p>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

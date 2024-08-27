@@ -1,0 +1,73 @@
+/* CSS for Offer a Skill Page (offer-skill.css) */
+
+/* Main Content */
+main {
+    padding: 60px 0;
+    background: #f9f9f9;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+main p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.offer-skill-form {
+    width: 50%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.offer-skill-form .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.offer-skill-form .btn:hover {
+    background: #ff4a33;
+}
+
+/* Active Link */
+nav ul li a.active {
+    border-bottom: 2px solid #ff6347;
+}
