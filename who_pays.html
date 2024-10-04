@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Who Pays?</title>
+  <link rel="stylesheet" href="css/who_pays.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Who Pays?</h1>
+    <div class="input-section">
+        <form>
+            <label for="participantName">Enter participant's name:</label>
+            <input type="text" id="participantName" name="participantName" required>
+            <button type="button" id="addParticipant">Add Participant</button>
+          </form>
+    </div>
+    
+    <ul id="participantList"></ul>
+    
+    <button id="decideButton">Who Pays?</button>
+    
+    <div id="result"></div>
+  </div>
+  
+  <script src="js/who_pays.js"></script>
+</body>
+</html>
